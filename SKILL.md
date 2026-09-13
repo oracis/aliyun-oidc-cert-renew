@@ -1,6 +1,8 @@
 ---
 name: aliyun-oidc-cert-renew
 description: 用 GitHub Actions + 阿里云 RAM OIDC 自动续期 Let's Encrypt 通配证书并分发到 OSS/FC/CDN，仓库零长期 AK。覆盖 OIDC 提供商/角色/权限策略搭建、workflow 手动兑换临时 STS、ACME DNS-01 签发、CAS 上传复用、新子域 DNS 自动发现绑定、60 天 keepalive、状态持久化，以及 IMS/RAM/CAS/oss2 SDK 的全部命名坑。当用户说「自动续期证书」「不想存 AK」「GitHub Actions 操作阿里云」「SSL 证书过期」「新增子域自动上 HTTPS」「免密钥访问阿里云」时使用。
+version: 1.0.0
+license: MIT
 agent_created: true
 ---
 
