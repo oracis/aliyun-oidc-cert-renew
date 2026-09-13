@@ -258,3 +258,5 @@ cert state saved
 
 - `scripts/setup_oidc.py` —— 一次性建 OIDC 提供商 + 角色 + 权限策略（读环境变量里的永久 AK）。
 - `scripts/oidc_sts_env.py` —— workflow 用：OIDC JWT → `AssumeRoleWithOIDC` → 写 `$GITHUB_ENV`。
+
+源码：<https://github.com/oracis/aliyun-oidc-cert-renew>　许可：MIT
