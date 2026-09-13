@@ -2,7 +2,11 @@ name: aliyun-oidc-cert-renew
 display_name: 阿里云证书自动续期（免 AK）
 version: 1.0.0
 author: oracis
-category: 运维部署
+category: 开发编程
+platforms:
+  - WorkBuddy
+  - Claude Code
+  - Codex
 license: MIT
 homepage: https://github.com/oracis/aliyun-oidc-cert-renew
 description: 用 GitHub Actions + 阿里云 RAM OIDC 自动续期 Let's Encrypt 通配证书并分发到 OSS/FC/CDN，仓库零长期 AK。覆盖 OIDC 提供商/角色/权限策略搭建、workflow 手动兑换临时 STS、ACME DNS-01 签发、CAS 上传复用、新子域 DNS 自动发现绑定、60 天 keepalive、状态持久化，以及 IMS/RAM/CAS/oss2 SDK 的全部命名坑。
